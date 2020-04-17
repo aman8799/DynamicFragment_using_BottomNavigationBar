@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:background="#413e4f"
+    android:padding="16dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:hint="Enter Text"
+        android:layout_marginTop="50dp"
+        android:textColorHint="#fff"
+        android:id="@+id/name">
+
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send to favourite"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/name"
+        android:background="#51d8c7"
+        android:id="@+id/send">
+
+    </Button>
+
+</RelativeLayout>
